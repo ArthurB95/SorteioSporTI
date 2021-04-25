@@ -1,0 +1,74 @@
+body {
+  background: #9feaee;
+  font: normal 15pt Arial;
+  color:black;
+  }
+  
+  header {
+  color: white;
+  text-align: center;
+  
+  }
+  
+  section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(194, 192, 192);
+  }
+  
+  footer {
+  color:white;
+  text-align: center;
+  font-style: italic;
+  
+  }
+  
+  div {
+  
+    text-align: center;
+    padding: 8px;
+  
+  }
+
+h1 {
+  color:#55595a;
+}
+
+h2 {
+  color: #55595a;
+}
+
+.negrito {
+  color: #55595a;
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  margin: 50px 0 0 0;
+}
+
+.botao {
+  width: 60px;
+  height: 35px;
+  color: white;
+  background-color: #0ca1a9;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.botao:hover{
+  transition: .5s;
+  transform: translateY(-10%)
+}
